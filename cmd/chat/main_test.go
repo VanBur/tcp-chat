@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"chat/internal/message"
-	"chat/internal/server"
-	"chat/internal/user"
+	"github.com/VanBur/tcp-chat/internal/message"
+	"github.com/VanBur/tcp-chat/internal/server"
+	"github.com/VanBur/tcp-chat/internal/user"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

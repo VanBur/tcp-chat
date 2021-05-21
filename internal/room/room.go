@@ -1,10 +1,10 @@
 package room
 
 import (
-	"chat/internal/message"
 	"net"
 
-	"chat/internal/client"
+	"github.com/VanBur/tcp-chat/internal/client"
+	"github.com/VanBur/tcp-chat/internal/message"
 )
 
 type Room struct {

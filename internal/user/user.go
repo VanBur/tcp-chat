@@ -3,7 +3,7 @@ package user
 import (
 	"net"
 
-	"chat/internal/message"
+	"github.com/VanBur/tcp-chat/internal/message"
 )
 
 // User is a struct for tests with send/receive func

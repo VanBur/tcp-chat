@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"chat/internal/message"
+	"github.com/VanBur/tcp-chat/internal/message"
 )
 
 func New(connection net.Conn) *Client {

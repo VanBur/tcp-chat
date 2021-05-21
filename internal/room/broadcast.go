@@ -1,9 +1,10 @@
 package room
 
 import (
-	"chat/internal/message"
 	"fmt"
 	"log"
+
+	"github.com/VanBur/tcp-chat/internal/message"
 )
 
 func onBroadcastValidation(msg *message.Message) error {

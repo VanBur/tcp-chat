@@ -3,7 +3,7 @@ package room
 import (
 	"log"
 
-	"chat/internal/client"
+	"github.com/VanBur/tcp-chat/internal/client"
 )
 
 func (r *Room) onRegister(name string, cli *client.Client) {

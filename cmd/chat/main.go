@@ -1,8 +1,9 @@
 package main
 
 import (
-	"chat/internal/server"
 	"flag"
+
+	"github.com/VanBur/tcp-chat/internal/server"
 )
 
 var (

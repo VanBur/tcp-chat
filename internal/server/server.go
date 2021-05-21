@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"chat/internal/room"
+	"github.com/VanBur/tcp-chat/internal/room"
 )
 
 type Server struct {
