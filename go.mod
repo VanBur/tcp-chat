@@ -1,4 +1,4 @@
-module chat
+module github.com/VanBur/tcp-chat
 
 go 1.16
 
